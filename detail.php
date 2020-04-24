@@ -1,3 +1,17 @@
+<?php  curl -X POST \
+  'https://api.mercadopago.com/checkout/preferences?access_token=ACCESS_TOKEN_ENV' \
+  -H 'content-type:application/json' \
+  -d '{
+        "items": [
+            {
+            "title": "Dummy Item",
+            "description": "Multicolor Item",
+            "quantity": 1,
+            "currency_id": "[FAKER][CURRENCY][ACRONYM]",
+            "unit_price": 10.0
+            }
+        ]
+    }' ?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
