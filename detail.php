@@ -1,5 +1,5 @@
 <?php  curl -X POST \
-  'https://api.mercadopago.com/checkout/preferences?access_token=ACCESS_TOKEN_ENV' \
+  'https://api.mercadopago.com/checkout/preferences?access_token=APP_USR-6317427424180639-090914-5c508e1b02a34fcce879a999574cf5c9-469485398' \
   -H 'content-type:application/json' \
   -d '{
         "items": [
@@ -11,7 +11,8 @@
             "unit_price": 10.0
             }
         ]
-    }' ?>
+    }'
+echo 'hola'?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
